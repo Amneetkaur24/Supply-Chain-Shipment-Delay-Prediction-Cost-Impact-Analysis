@@ -1,4 +1,4 @@
-# Supply Chain Shipment Delay Prediction
+# Supply Chain Delay Cost Impact Analysis
 
 Predicting car shipment delays and estimating financial impact using machine learning and supply chain analytics.
 
@@ -157,21 +157,42 @@ Jupyter Notebook
 # Repository Structure
 
 ```
+supply-chain-delay-cost-impact-analysis
+│
+├── app
+│   ├── Delay_Days_Features_list.pkl
+│   ├── app_final1.py
+│   ├── best_model_rf.pkl
+│   ├── financial_scaler.pkl
+│   ├── random_forest_model_classification.pkl
+│   ├── random_forest_top5_cost_features.pkl
+│   ├── random_forest_top5_cost_model.pkl
+│   └── top_features_classification.pkl
 │
 ├── data
+│   ├── Cleaned_car_automated_dataset.csv
+│   ├── Financial_Impact_Regression_Final_Dataset (1).csv
+│   ├── delay_days_regression_final.csv
+│   ├── df_cleaned_classification_final.csv
+│   └── raw_shipment_data.csv.csv
 │
 ├── notebooks
-│   └── EDA_and_Modeling.ipynb
+│   ├── 01_data_cleaning.ipynb.ipynb
+│   ├── 02_eda.ipynb.ipynb
+│   ├── 03_feature_eng_classification.ipynb.ipynb
+│   ├── 04_feature_eng_regression_days.ipynb.ipynb
+│   ├── 05_feature_eng_regression_cost.ipynb.ipynb
+│   ├── 06_model_classification.ipynb.ipynb
+│   ├── 07_Delay_Days_Regression_Model.ipynb
+│   └── 08_model_regression_cost.ipynb
 │
-├── dashboard
-│   └── car_shipment_dashboard.pbix
-│
-├── images
-│   └── dashboard_screenshot.png
-│
-├── insights.md
-│
-└── README.md
+├── Car Shipment Delay Prediction_ppt.pdf
+├── Car_Shipment_Delay_Report.docx
+├── Car_Shipment_Power_Bi_Dashboard.pbix
+├── Insights.md
+├── README.md
+└── requirements.txt
+
 ```
 
 ---
