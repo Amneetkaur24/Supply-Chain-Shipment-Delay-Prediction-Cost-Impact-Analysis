@@ -1,7 +1,8 @@
 # Supply Chain Delay Cost Impact Analysis
 
 Predicting car shipment delays and estimating financial impact using machine learning and supply chain analytics.
-
+--
+<img width="873" height="489" alt="image" src="https://github.com/user-attachments/assets/51355b48-5e98-4e89-8eac-e6a5bd453234" />
 ---
 
 # Business Problem
@@ -19,9 +20,6 @@ This project analyzes supply chain shipment data to:
 These insights can help supply chain managers take proactive decisions and reduce operational risk.
 
 ---
-# Dashboard Preview
-
-<img width="873" height="489" alt="image" src="https://github.com/user-attachments/assets/51355b48-5e98-4e89-8eac-e6a5bd453234" />
 
 # Dataset Overview
 
